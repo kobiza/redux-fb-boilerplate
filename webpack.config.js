@@ -14,12 +14,20 @@ var config = {
         publicPath: '/dist',
         filename: 'bundle.js'
     },
+    devServer: {
+        historyApiFallback: true
+    },
     module : {
         loaders : [
             {
                 test : /\.jsx?/,
                 include : APP_DIR,
                 loader : 'babel-loader'
+            },
+            {
+                test: /\.scss$/,
+                exclude: /node_modules/,
+                loaders: ['style-loader', 'css-loader', 'resolve-url-loader', 'sass-loader']
             }
         ]
     }

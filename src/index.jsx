@@ -21,11 +21,12 @@ class AppWrapper extends React.Component {
 }
 
 var fbConfig = {
-    apiKey: "AIzaSyC4xry1JzyQ_oK3lzMxi-bPzsqFa5LNloo",
-    authDomain: "holon-football.firebaseapp.com",
-    databaseURL: "https://holon-football.firebaseio.com",
-    storageBucket: "holon-football.appspot.com",
-    messagingSenderId: "933361392717"
+    apiKey: "AIzaSyBfRrwXia76gzwZyafvJXStJIokMRE0Oss",
+    authDomain: "redux-fb-boilerplate.firebaseapp.com",
+    databaseURL: "https://redux-fb-boilerplate.firebaseio.com",
+    projectId: "redux-fb-boilerplate",
+    storageBucket: "redux-fb-boilerplate.appspot.com",
+    messagingSenderId: "616926593216"
 };
 
 

@@ -52,5 +52,3 @@ export const onChildRemoved = (path, callback) => {
 
     return getOffFunc(path, 'child_removed', onChildRemovedCallback);
 };
-
-//add offChildChanged
